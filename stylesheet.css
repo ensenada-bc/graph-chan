@@ -4,3 +4,19 @@
   position:fixed;
   top:0px;
   left:0px;}
+#toolbar{
+  height:10%;
+  width:50%;
+  position:fixed;
+  top:0px;
+  left:50%;
+  background-color:gray;
+}
+#graph{
+  height:90%;
+  width:50%;
+  position:fixed;
+  top:10%;
+  left:50%;
+  background-color:black;
+}
