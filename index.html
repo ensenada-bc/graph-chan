@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <!--stylesheet-->
+    <!--title-->
+    <!--libraries-->
+  </head>
+  <body>
+    <!--iframe to hold the imageboard, for viewing and posting threads-->
+    <iframe id="imageboard"/>
+    <!--div to hold the rendered graph-->
+    <div id="graph"/>
+    <!--code to get the requested thread from specified imageboard json api-->
+    <script src="threadget.js"/>
+    <!--code to translate api response json to cytoscape format -->
+    <script src="translate.js"/>
+    <!--code to set up and display graph using cytoscape-->
+    <script src="graph.js"/>
+  </body>
+</html>
