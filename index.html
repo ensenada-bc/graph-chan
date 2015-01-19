@@ -16,7 +16,7 @@
         http://8ch.net/
         <input type="text" name="board" value="board"></input>
         /res/
-        <input type="text" name="threadnumber" value="thread"></input>
+        <input type="text" name="thread" value="thread"></input>
         /
         <input type="submit" value="go" onclick="get_thread();"></input>
         <input type="button" value="refresh"></input>
@@ -24,12 +24,8 @@
     </div>
     <!--div to hold the rendered graph-->
     <div id="graph">graph</div>
-    <!--code to get the requested thread from specified imageboard json api-->
-    <script src="threadget.js"></script>
-    <!--code to translate api response json to cytoscape format -->
-    <script src="translate.js"></script>
-    <!--code to set up and display graph using cytoscape-->
-    <script src="graph.js"></script>
+    <!--code to handle graph state-->
+    <script src="script.js"></script>
     <!--iframe to hold the imageboard, for viewing and posting threads-->
     <iframe id="imageboard" src="http://8ch.net/b/res/1399086.html"></iframe>
   </body>
