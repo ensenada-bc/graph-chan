@@ -11,6 +11,10 @@ function get_thread(){
   var url = base_url + board + "/res/" + thread + ".json";
   //debugging message to console log (url)
   console.log(url);
+  //form html url for iframe
+  var html_url = base_url + board + "/res/" + thread + ".html";
+  //set iframe url
+  document.getElementById("imageboard").url = html_url;
   //load json from url
   
   //return json
