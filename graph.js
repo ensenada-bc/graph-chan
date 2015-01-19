@@ -1,3 +1,18 @@
+//code to get a threads json using the imageboard api
+get_thread(){
+  //get board name
+  document.getElementById("");
+  //get thread number
+  document.getElementById("");
+  //form url to json file representing this thread
+  
+  //load json from url
+  
+  //return json
+}
+
+
+
 //code to display a graph using the translated json and cytoscape.js
 //setup a basic cytoscape graph
 var cy = cytoscape({
